@@ -119,7 +119,7 @@ let g:syntastic_check_on_wq = 0
 set clipboard=unnamed
 
 map <leader>N :NERDTreeToggle<CR>
-nnoremap <leader>a :echo("\<leader\> works! It is set to <leader>")<CR>
+nnoremap <leader>a :echo("\<leader\> yessir den virker. leader = <leader>")<CR>
 noremap <leader>sop iSystem.out.println();<esc>hi
 nnoremap <leader>s :w<CR>
 
