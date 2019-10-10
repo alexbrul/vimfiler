@@ -79,7 +79,7 @@ set lazyredraw
 set magic
 
 
-" No annoying sound on errors
+" Av med lyd! Viktig
 set noerrorbells
 set novisualbell
 set t_vb=
@@ -99,6 +99,8 @@ fun! CleanExtraSpaces()
     call setreg('/', old_query)
 endfun
 
+
+" Sletter ekstra spaces! 
 if has("autocmd")
     autocmd BufWritePre *.txt,*.js,*.py,*.wiki,*.sh,*.coffee :call CleanExtraSpaces()
 endif
